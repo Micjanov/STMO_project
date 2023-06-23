@@ -1,4 +1,9 @@
 # STMO project
 **Michael Fatjanov and Ruben Allaert**
 
-Physarum polycephalum, an acellular slime mold, is well known for its problem-solving abilities. In this notebook, we explore the Slime Mold Algorithm (SMA) which attempts to replicate this organism's special properties and use it to solve a wider array of problems. We will first look at the biological background and then explore the mathematical background of the algorithm. We will then investigate its performance and compare it to modified versions of the algorithm. Finally, we will apply this algorithm to some interesting usecases.
+These notebooks explore the Slime Mold Algorithm (SMA), a technique derived from the unique problem-solving capabilities of Physarum polycephalum, an acellular slime mold. We first examine the biological characteristics of this organism, before transitioning into the mathematical principles that govern the algorithm. Next, we assess the performance of the SMA and contrast it with its altered versions to identify potential enhancements. Our study concludes with the application of this algorithm on practical problems, specifically the Traveling Salesman Problem (TSP).
+
+We suggest the reader to read the notebooks in the following order:
+1. `SMA.ipynb`: this notebook introduces the meta-heuristic slime mold algorithm to optimize continuous function and shows its inner working by applying to some objective functions.
+2. `frituurDensity.ipynb`: we take a dataset (scraped frituren around Vlaanderen) and fit a kernel density function to it. We then apply the SMA to it to find the most frituur-dense place in Vlaanderen.
+3. `frituurTSP.ipynb`: the SMA used in the earlier notebooks is revised so that it is able to solve traveling salesman problems, specifically for frituren around Vlaanderen. A Bayesian optimization experiment is also included.
